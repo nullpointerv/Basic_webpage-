@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:
+    "Mona Sans",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    /* background-color: #E5E4E5; */
+    height: 100%;
+    width: 100%;
+  
+}
+.nav{
+    display: flex;
+    align-items: center;justify-content: space-between;
+    background-color: #ffffff;
+height: 10vh;
+width: 100%;
+padding: 0 4vw;
+font-size: 14px;
+font-weight: 400;
+
+
+}
+.nav1{
+display: flex;
+align-items: center;
+justify-content: center;
+/* font-size: 12px;
+font-weight: 400; */
+
+}
+.nav1 h3{
+    border: 1px solid;
+border-radius: 50px;
+padding: 2px 7px;
+} 
+.nav1 i{
+    border: 1px solid;
+border-radius: 50px;
+padding: 2px 4px;
+font-size: larger;
+
+
+}
+.nav2 h3{
+}
+#btn{
+   border: none;
+   background-color: orangered;
+   color: white;
+}
+.nav3 button{
+border-radius: 15px;
+padding: 4px 10px;
+}
+.advantages{
+    font-size: 5vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 300px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-28deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(-3deg);
+}
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 15px;
+}
+#btm-right{
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    font-size: 25px;
+}
+#btm-rightpara{
+    position: absolute;
+    bottom:5%;
+    right: 3%;
+    font-size: 15px;
+    text-transform: capitalize;
+}
